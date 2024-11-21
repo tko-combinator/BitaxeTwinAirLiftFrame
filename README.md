@@ -7,15 +7,15 @@
 ![HomeView](https://github.com/tko-combinator/BitaxeTwinAirLiftFrame/blob/main/images/TwinAirLiftFrame_HomeView.png)	
 
 ## 概要
-Bitaxe Supra(601) を基準に設計をしましたが、2014年現在流通しているシングルASICのBitaxeであれば大体適合すると思われます。
-2台のBitaxeを上下逆さまに取り付けられる事が特徴です。
-これは、ファン同士の干渉や左右からコネクタ類を抜き差ししやすいように配慮したものです。
+Bitaxe Supra(601) を基準に設計をしましたが、2024年現在流通しているシングルASICのBitaxeであれば概ね適合すると思われます。
+2台のBitaxeを上下逆さまに取り付ける事が特徴のケースです。
+これは、ファン同士の干渉の防止や、左右からコネクタ類を抜き差ししやすいように配慮した結果です。
 １台の表示器が上下逆さまになりますが、BitaxeのWebUI(AxeOS)から簡単に反転設定をする事が出来ます。
 基板の端子からケースの縁まで距離があるため、USB-CやDC電源のコネクタはある程度長いストレートタイプのものを推奨します。  
 しかし、少し苦労をすればL字型や短いコネクタを使用して、コネクタ類が目立たないように取り付ける事も出来ます。
 
 ## 検証済み適合機種
-私が購入の上、実際の適合を検証したモデルになります。
+私が購入し、適合を検証したモデルになります。
 基板の製造上の誤差や3Dプリント時の誤差や歪みなどによって、多少の調整が必要になるかもわかりません。
 * Bitaxe Supra(402)
 * Bitaxe Ultra(205)
@@ -52,16 +52,15 @@ Bitaxe Supra(601) を基準に設計をしましたが、2014年現在流通し�
 
 
 ## Overview
-This case is designed based on the Bitaxe Supra (601) and is expected to be compatible with most single-ASIC Bitaxe models currently available as of 2024.
-A unique feature of this design is that it allows two Bitaxe units to be mounted in an inverted orientation.
-This layout prevents fan interference and makes it easier to connect and disconnect cables from both sides.
-One of the displays will be upside down, but this can be easily adjusted using the Bitaxe WebUI (AxeOS) to flip the display orientation.
-Since there is a distance between the terminals of the board and the edge of the case, we recommend using a relatively long, straight USB-C or DC power connector.  
-However, with some effort, you can use an L-shaped or shorter connector to make the connection points less visible.
-I’ve added a list of confirmed compatible models based on our post-release tests. 
+This case is designed based on the Bitaxe Supra (601) and should work with most single-ASIC Bitaxe models available as of 2024.
+The main feature of this case is that it allows two Bitaxe units to be mounted upside-down from each other.
+This helps prevent fan interference and makes it easier to plug and unplug connectors from both sides.
+One display will end up upside down, but you can easily flip it using the Bitaxe WebUI (AxeOS).
+There’s a bit of distance between the board terminals and the edge of the case, so we recommend using long, straight USB-C and DC power connectors. That said, with a little effort, you can also use L-shaped or shorter connectors to keep things looking clean.
 
 ## Confirmed Models
-Due to manufacturing tolerances in the circuit board or errors and distortions during 3D printing, slight adjustments may be required.
+These are the models I have purchased and tested for compatibility.
+Due to manufacturing tolerances in the circuit board or potential errors and warping during 3D printing, some adjustments may be necessary.
 * Bitaxe Supra(402)
 * Bitaxe Ultra(205)
 * Bitaxe Gamma(601)
